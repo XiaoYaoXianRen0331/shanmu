@@ -1,0 +1,200 @@
+/* 頁首 */
+
+.header {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #dedede;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    
+    background-color: #fff;
+}
+
+    .header- {
+        display: flex;
+        gap: 20px;
+    }
+
+        .header-- {
+            width: 80px;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 600;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            transition-duration: 0.4s;
+        }
+
+        .header--:hover {
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-decoration: underline solid 2px #FF6666;
+            color: #FF6666;
+        }
+
+
+.top {
+    height: 80px;
+}
+
+
+
+/* 頁尾 */
+
+.footer {
+    width: 100%;
+    height: fit-content;
+    padding: 40px;
+
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 0.9rem;
+}
+
+    .footer > div {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 6px;
+    }
+
+    .footer .img {
+        width: 20%;
+    }
+
+        .footer .img- {
+            width: 100%;
+            aspect-ratio: 3 / 2;
+
+            background-image: url(../img/slide3.jpg);
+            background-size: cover;
+            background-position: center center;
+        }
+
+    .footer .title {
+        margin-bottom: 5px;
+    }
+
+    #dizhi, #xinxiang {
+        position: relative;
+    }
+
+        .after {
+            width: 100px;
+            height: 1px;
+            top: 100%;
+            right: -20px;
+            
+            position: absolute;
+
+            background-color: #000;
+        }
+
+    .footer .map {
+        width: 20%;
+    }
+
+
+
+/* 圖文
+圖片和文字分佔左右 */
+
+.tuwen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .tuwen > div {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .tuwen .img {
+        height: 100%;
+        
+        background-image: url(../img/slide2.jpg);
+        background-size: contain;
+        background-clip: content-box;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+    .tuwen .content {
+        padding-left: 20px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+
+
+/* 區塊
+三個橫向小區塊
+圖片在上，文字在下 */
+.block {
+    width: 25%;
+    border: 1px solid #dedede;
+}
+
+    .block .img {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        
+        background-image: url(../img/slide2.jpg);
+        background-size: cover;
+        background-clip: content-box;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .block .content {
+        padding: 20px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+
+/* 標題字體 */
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+
+
+/* 區塊置中 */
+
+.zhizhong {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* 暫存區塊 */
+
+.tem {
+    font-size: 1.5rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
