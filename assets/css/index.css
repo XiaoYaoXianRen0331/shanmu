@@ -54,7 +54,6 @@
 
     #xinwen .wrap {
         height: calc(100% - 15vh);
-        padding-bottom: 40px;
 
         display: flex;
         justify-content: space-evenly;

@@ -145,7 +145,6 @@
 三個橫向小區塊
 圖片在上，文字在下 */
 .block {
-    width: 25%;
     border: 1px solid #dedede;
 }
 

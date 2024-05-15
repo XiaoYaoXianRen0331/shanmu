@@ -1,0 +1,22 @@
+#title {
+    width: 100%;
+    height: 120px;
+}
+
+.container {
+    width: 80%;
+    height: fit-content;
+    padding-bottom: 80px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.block {
+    width: calc(50% - 20px);
+    max-width: 500px;
+    aspect-ratio: 1;
+}
